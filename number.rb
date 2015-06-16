@@ -1,5 +1,5 @@
 def number_game 
-	number=rand(100)
+	answer=rand(100)
 	puts "The number is: #{number}"
 
 	puts "Guess a number between 1 - 100. You have 5 guesses"
@@ -21,7 +21,7 @@ def number_game
 			puts "not an option"
 		end	
 
-	end
+	end 
 
 end
 number_game 
